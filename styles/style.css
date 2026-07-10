@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-
+/* Navbar Section */
 nav {
     display: flex;
     justify-content: space-around;
@@ -37,7 +37,7 @@ nav ul li a {
 
 }
 
-
+/* Banner Section */
 .banner {
     display: flex;
     flex-direction: column;
@@ -74,6 +74,7 @@ nav ul li a {
     text-align: center;
 }
 
+/* Speakers Section */
 .speakers-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -115,6 +116,8 @@ nav ul li a {
     margin: 10rem;
 }
 
+
+/* Price Card Section */
 .price-card {
     display: flex;
     flex-direction: column;
@@ -241,6 +244,8 @@ nav ul li a {
     padding-bottom: 1rem;
 }
 
+
+/* Footer Section */
 .site-footer {
     background: #11161d;
     padding: 48px 6vw 28px;
@@ -337,78 +342,5 @@ nav ul li a {
     letter-spacing: 0.2px;
 }
 
-/* Why Attend Section */
-.why-attend {
-    padding: 100px 6vw 110px;
-    max-width: 1240px;
-    margin: 0 auto;
-  }
- 
-  .why-attend-header {
-    text-align: center;
-    max-width: 640px;
-    margin: 0 auto 60px;
-  }
- 
-  .why-attend-header h2 {
-    font-size: 2.6rem;
-    font-weight: 800;
-    margin: 0 0 14px;
-    letter-spacing: -0.5px;
-    color: #0e0f12;
-  }
- 
-  .why-attend-header p {
-    font-size: 1.05rem;
-    color: #5b6270;
-    margin: 0;
-    line-height: 1.6;
-  }
- 
-  .why-attend-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-  }
- 
-  .why-card {
-    background: #ffffff;
-    border: 1px solid #e7e9ee;
-    border-radius: 14px;
-    padding: 32px 26px;
-    text-align: left;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-  }
- 
-  .why-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 28px rgba(20, 30, 60, 0.08);
-    border-color: #d7dcf5;
-  }
- 
-  .why-icon {
-    width: 52px;
-    height: 52px;
-    border-radius: 12px;
-    background: #eef1ff;
-    color: #2f4bf0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.3rem;
-    margin-bottom: 20px;
-  }
- 
-  .why-card h3 {
-    font-size: 1.15rem;
-    font-weight: 700;
-    margin: 0 0 10px;
-    color: #14161a;
-  }
- 
-  .why-card p {
-    font-size: 0.92rem;
-    line-height: 1.6;
-    color: #6b7280;
-    margin: 0;
-  }
+
+/* Venue Section */
